@@ -96,6 +96,8 @@ p{
 	background-image:url(../images/content_bg.gif);
 	width:717px;
 	position: relative;
+	min-height: 463px;
+	_height: 463px;
 }
 img {
 	border-width:0px;
