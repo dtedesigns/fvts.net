@@ -1,0 +1,69 @@
+	<div id="content">
+		<div id="left">
+			<h1>C. S. Lewis and the Problem of Evil &amp; Suffering</h1>
+			<h2 id="subtitle">Can A Good God Allow Suffering And Evil?</h2>
+			
+			<p>The Fox Valley Theological Society is sponsoring a public lecture and discussion forum on the topic of suffering and evil.  Join the conversation as we together think diligently about the philosophical, theological and practical implications of the very real presence of suffering and evil in our world.  
+</p>
+			<p>Saturday, May 29 at 10:00 am<br />Batavia Public Library<br />10 S. Batavia Avenue<br />Batavia, Illinois 60510
+			<a id="map" href="http://maps.google.com/maps/place?cid=10709501666740266370&q=batavia+public+library&hl=en&cd=1&cad=src:pplink&ei=MbK_S4DWD4-WMami1ZEM">Map</a>
+			</p>
+	
+			<h2>Our Speaker</h2>
+			<img id="speaker" src="images/Jerry Root.gif" />
+			<p>Dr. Jerry Root (Ph.D., British Open University) <br />Adjunct Professor of Christian Formation & Ministry, Wheaton College (IL) </p>
+			<p>Dr. Root is an expert on C.S. Lewis and has found pain and suffering to be a thread throughout much of his writings.
+			<a id="bio_switch" href="#">More...</a>
+			</p>
+
+			<div id="bio">
+				<p>Jerry was born and raised in Southern California. He
+				grew up in a Christian family but did not become
+				a Christian until his freshman year at Whittier
+				College. </p><p>He was deeply influenced by the ministries
+				of Campus Crusade for Christ and Granada Heights Friends
+				Church in La Mirada, California. Jerry's sister Kathy
+				introduced him to the writings of C. S. Lewis while he
+				was still an undergraduate. Upon graduation from college
+				he selected Lewis as an author who would take him to other
+				authors and has made of him a life study. The concept that
+				graduation from college is "Commencement" has meant that
+				only a foundation for learning is established through
+				formal education after which one commences his/her
+				liberal arts education.</p>
+				<p>He pastored three different churches over twenty-three
+				years. Nineteen of those years were invested in student ministry,
+				and for four years he served as a senior pastor. While pastoring
+				he taught courses in Philosophy and on C. S. Lewis for ten years
+				at the College of Du Page in Glen Ellyn, Illinois. He has served
+				on the Adjunct Faculty at Biola University since 1991, teaching
+				courses on Lewis. He has been teaching at Wheaton College since
+				1996. Jerry has lectured or preached in 14 different countries
+				around the world and has also lectured extensively throughout
+				the United States.</p>
+			</div>
+		</div>
+		<div id="right">
+			<h3>Upcoming Events</h3>
+			<p class="event">
+				<img class="event_pic" src="images/cs-lewis-small.jpg" />
+				<a href="javascript:.">C. S. Lewis and the Problem of Evil &amp; Suffering</a>
+				<!--<a href="http://www.facebook.com/event.php?eid=105895936107302&ref=mf"><img title="Facebook" src="images/facebook-tiny-square.png"/></a>-->
+				<br /><span class="time">Saturday, May 29 at 10:00am</span>
+			</p>
+			<p class="event">
+				<img class="event_pic" src="images/911 lights.jpg" />
+				<a href="javascript:.">Is Religion Dangerous?</a>
+				<!--<a href="https://www.facebook.com/event.php?eid=105239719508225&ref=mf"><img title="Facebook" src="images/facebook-tiny-square.png"/></a>-->
+				<br /><span class="time">Saturday, Sept. 11 at 10:00am</span>
+			</p>
+			<p class="event">
+				<img class="event_pic" src="images/head in sand.jpg" />
+				<a href="javascript:.">Is Christianity Intellectual Suicide?</a>
+				<!--<a href="https://www.facebook.com/event.php?eid=101985856509090&ref=mf"><img title="Facebook" src="images/facebook-tiny-square.png"/></a>-->
+				<br /><span class="time">Saturday, Oct. 23 at 10:00am</span>
+			</p>
+			<a id="follow_us" title="Fox Valley Theological Society" href="http://www.facebook.com/home.php?#!/group.php?gid=105275896168392&ref=ts"><img src="images/facebook.png"/></a>
+		</div>
+		<div id="footerline"></div>
+	</div>

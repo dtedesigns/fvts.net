@@ -1,0 +1,11 @@
+	<div id="content">
+		<div id="left">
+			<h1>Who Are We?</h1>
+			<p>Content coming soon.</p>
+		</div>
+		<div id="right">
+			<h3>Right</h3>
+			<a id="follow_us" title="Fox Valley Theological Society" href="http://www.facebook.com/home.php?#!/group.php?gid=105275896168392&ref=ts"><img src="images/facebook.png"/></a>
+		</div>
+		<div id="footerline"></div>
+	</div>
