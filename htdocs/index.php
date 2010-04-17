@@ -32,7 +32,7 @@
 			}
 		?>
 	</div>
-	<div id="footer">Copyright © 2010 Fox Valley Theological Society.  All rights reserved.&nbsp;
+	<div id="footer">Copyright &copy; 2010 Fox Valley Theological Society.  All rights reserved.&nbsp;
 		Designed by <a href="http://kevingustavson.info/">Kevin Gustavson</a>.
 	</div>	
 </div>
