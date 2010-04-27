@@ -126,6 +126,10 @@ h3 {
 	width:200px;
 	margin: 10px 0px 15px 0px;
 }
+#left, #right, #full {
+	min-height: 413px;
+	_height: 413px;
+}
 #left {
 	float:left;
 	width:428px;
@@ -134,8 +138,6 @@ h3 {
 	padding: 0px 10px 30px 0px;
 	display:inline;
 	border-right: #FFF 2px solid;
-	min-height: 413px;
-	_height: 413px;
 }
 #left a {color:#28556b;}
 #left a:hover {color:#c77e0c;}
@@ -161,6 +163,12 @@ h3 {
 #right a:hover {
 	color: #85a157;
 	text-decoration: underline;
+}
+#full {
+	float:left;
+	margin: 10px 27px 0 27px;
+	padding: 0px 10px 30px 0;
+	display:inline;
 }
 #follow_us {
 	position: absolute;
