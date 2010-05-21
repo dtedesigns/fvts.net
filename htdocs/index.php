@@ -12,7 +12,7 @@
 		<div id="logo_w1">Fox Valley Theological Society</div>
 		<!--<div id="logo_w2">Theological Society</div>-->
 		<div id="header_text">
-			<p>A forum for open, respectful, sincere, and honest dialogue</p>
+			<p>A forum for sincere dialogue</p>
 		</div>
 		<img id="logo" src="images/fvts_logo.gif" />
 		<ul>
@@ -20,7 +20,7 @@
 			<li><a href="index.php?q=who_are_we" onclick="$('#content').load('pages/who_are_we.html');">Who are we?</a></li>
 			<!--<li><a href="javascript:">Events</a></li>-->
 			<li><a href="index.php?q=talk_to_me" onclick="$('#content').load('pages/talk_to_me.html');">I'd like to talk to someone</a></li>
-			<li><a href="forum/">Discussions &amp; Feedback</a></li>
+			<li><a href="forums/">Discussions &amp; Feedback</a></li>
 		</ul>
 	</div>
 	<div id="content">
@@ -52,6 +52,19 @@
     	return false;
     });
 -->
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3341219-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 </body>
 </html>
