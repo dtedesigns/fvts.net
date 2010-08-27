@@ -17,7 +17,7 @@
 		<div id="header_text">
 			<p>A forum for sincere dialogue</p>
 		</div>
-		<img id="logo" src="images/fvts_logo.gif" />
+		<img id="logo" src="images/fvts_logo.gif" alt="FVTS Logo"/>
 		<ul id="navigation">
 			<li><a href="index.php">Home</a></li>
 			<li><a href="index.php?q=who_are_we" onclick="$('#content').load('pages/who_are_we.html');">Who are we?</a></li>
