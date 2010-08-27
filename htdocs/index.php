@@ -1,8 +1,10 @@
+<?php header('Content-type: text/html; charset=utf-8'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="google-site-verification" content="1hkL-yUG1b7r6JKQU-kMsvVItqt6s8r4MQjGKW8PyoA" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <title>Fox Valley Theological Society</title>
 </head>
@@ -16,7 +18,7 @@
 			<p>A forum for sincere dialogue</p>
 		</div>
 		<img id="logo" src="images/fvts_logo.gif" />
-		<ul>
+		<ul id="navigation">
 			<li><a href="index.php">Home</a></li>
 			<li><a href="index.php?q=who_are_we" onclick="$('#content').load('pages/who_are_we.html');">Who are we?</a></li>
 			<li><a href="index.php?q=events" onclick="$('#content').load('pages/events.html');">Events</a></li>
@@ -29,7 +31,11 @@
 			if($_GET['q'] AND file_exists("pages/{$_GET['q']}.html")) {
 				include "pages/".$_GET['q'].".html";
 			} else {
-				include 'pages/main.html';
+				//include 'pages/main.html';
+				$content = file_get_contents('pages/main.html');
+				$sidebar = file_get_contents('pages/sidebar.html');
+				$content = str_replace('<!--SIDEBAR-->', $sidebar, $content);
+				echo $content;
 			}
 		?>
 	</div>
