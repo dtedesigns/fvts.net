@@ -74,7 +74,19 @@ td {
 	}
 	#header li {
 		display:inline;	
+		padding: 5px 0 12px;
 	}
+	#header li.selected {
+		/*background: #3d4a28;*/
+		/*background: #caf584;*/
+		background: #e7e7de;
+		color: #ccc;
+		border-left: 2px solid #fff;
+		border-right: 2px solid #fff;
+	}
+		#header li.selected a {
+			color: #000;
+		}
 		#header ul a {
 			color:#FFFFFF;
 			margin: 0px 20px;
@@ -156,6 +168,12 @@ td {
 }
 	#left a {color:#28556b;}
 	#left a:hover {color:#c77e0c;}
+	#left #staytuned {
+		position: absolute;
+		top: 0;
+		left: 3px;
+		z-index: 100;
+	}
 
 #right {
 	float:right;
