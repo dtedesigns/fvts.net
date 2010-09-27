@@ -74,7 +74,8 @@ td {
 	}
 	#header li {
 		display:inline;	
-		padding: 5px 0 12px;
+		padding: 5px 1px 12px;
+		margin: 0;
 	}
 	#header li.selected {
 		/*background: #3d4a28;*/
@@ -95,8 +96,11 @@ td {
 		}
 			#header ul a:hover {
 				color:#28556b;
-				text-decoration:underline;
+				text-decoration: none;
 				text-shadow: none;
+				position: relative;
+				left: 2px;
+				top: -1px;
 			}
 
 #logo_w1,#logo_w2 {
