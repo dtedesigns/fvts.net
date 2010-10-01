@@ -1,8 +1,10 @@
 /******************** Global ********************/
 body {
-	background:#BE6734;
 	/*background-color:#a6bf79;*/
 	/*background:#D99966;*/
+	/*background-color:#BE6734;*/
+	/*background: #BE6734 url('../images/FVTS background.jpg') repeat center center;*/
+	background-color: #444;
 	color:#000000;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -38,7 +40,8 @@ h2 {
 	}
 
 h3 {
-	color:#85a157;
+	/*color:#85a157;*/
+	color:#7a4417;
 	font-size:14px;
 	text-align:center;
 	width:200px;
@@ -61,7 +64,8 @@ td {
 }
 	#header ul {
 		/*background-color:#85a157;*/
-		background-color:#85a157;
+		/*background-color:#85a157;*/
+		background-color:#D17428;
 		border: 3px solid #FFFFFF;
 		display:block;
 		height:22px;
@@ -97,7 +101,7 @@ td {
 			#header ul a:hover {
 				color:#28556b;
 				text-decoration: none;
-				text-shadow: none;
+				/*text-shadow: none;*/
 				position: relative;
 				left: 2px;
 				top: -1px;
@@ -107,7 +111,7 @@ td {
 	font-size: 24px;
 	font-style:italic;
 	color:#FFFFFF;
-	text-shadow: 0 2px 2px #444444;
+	text-shadow: 0 2px 2px #ccc;
 	position:absolute;
 }
 #logo_w1 {
@@ -128,7 +132,7 @@ td {
 	#header_text p {
 		color:#FFFFFF;
 		font-size: 18px;
-		text-shadow: 0 1px 1px #666666;
+		text-shadow: 2px 2px 2px #000;
 	}
 	#header_text a{color:#28556b;}
 		#header_text a:hover{color:#c77e0c;}
@@ -171,7 +175,7 @@ td {
 	border-right: #FFF 2px solid;
 }
 	#left a {color:#28556b;}
-	#left a:hover {color:#c77e0c;}
+	#left a:hover {color:#7a4417;}
 	#left #staytuned {
 		position: absolute;
 		top: 0;
@@ -190,13 +194,13 @@ td {
 		margin-right: 5px;
 	}
 	#right img { float: right; }
-	#right a {
-		color:#c77e0c;
+	#right a, #full a {
+		color:#D17428;
 		text-decoration: none;
 		font-weight: bold;
 	}
-		#right a:hover {
-			color: #85a157;
+		#right a:hover, #full a:hover {
+			color: #000;
 			text-decoration: underline;
 		}
 
@@ -206,6 +210,15 @@ td {
 	padding: 0px 10px 30px 0;
 	display:inline;
 }
+	#full h1 {
+		color:#7a4417;
+		font-size: 150%;
+		margin-top: 30px;
+		text-align: center;
+	}
+	#full h2 {
+		margin-top: 20px;
+	}
 
 #photos a {
 	margin-right:14px;
@@ -246,11 +259,11 @@ td {
 	height:10px;
 }
 #footer {
-	color: #140b06;
+	color: #fff;
 	padding: 20px 0px;
 	text-align:center;
-	text-shadow: 0 1px 1px #69381c;
+	text-shadow: 0px 1px 3px #bbb;
 	width:717px;
 }
-	#footer a { color: #140b06; }
+	#footer a { color: #fff; }
 
