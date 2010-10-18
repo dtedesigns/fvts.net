@@ -39,14 +39,6 @@ h2 {
 		font-style: italic;
 	}
 
-h3 {
-	/*color:#85a157;*/
-	color:#7a4417;
-	font-size:14px;
-	text-align:center;
-	width:200px;
-	margin: 10px 0px 15px 0px;
-}
 td {
 	padding-right: 7px;
 	padding-top: 7px;
@@ -203,6 +195,14 @@ td {
 			color: #000;
 			text-decoration: underline;
 		}
+	#right h3 {
+		/*color:#85a157;*/
+		color:#7a4417;
+		font-size:14px;
+		text-align:center;
+		width:200px;
+		margin: 10px 0px 15px 0px;
+	}
 
 #full {
 	float:left;
@@ -218,6 +218,11 @@ td {
 	}
 	#full h2 {
 		margin-top: 20px;
+	}
+	#full h3 {
+		font-size: 100%;
+		font-style: italic;
+		color: #444;
 	}
 
 #photos a {
@@ -250,6 +255,13 @@ td {
 }
 
 .when_where { width: 12em; }
+.event_description {
+	width: 395px;
+	text-align: justify;
+}
+
+#previous_events .event_description { width: auto; }
+#previous_events .when_where { display: none; }
 
 /********************** Footer ***************************/
 #footerline {
