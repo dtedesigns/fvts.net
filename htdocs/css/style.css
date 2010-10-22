@@ -260,8 +260,8 @@ td {
 	text-align: justify;
 }
 
-#previous_events .event_description { width: auto; }
-#previous_events .when_where { display: none; }
+/*#previous_events .event_description { width: auto; }*/
+/*#previous_events .when_where { display: none; }*/
 
 /********************** Footer ***************************/
 #footerline {
