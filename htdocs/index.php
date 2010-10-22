@@ -19,7 +19,7 @@
 		</div>
 		<img id="logo" src="images/fvts_logo.png" alt="FVTS Logo"/>
 		<ul id="navigation">
-			<li><a href="index.php">Home</a></li>
+			<li><a href="./">Home</a></li>
 			<li><a href="index.php?q=who_are_we" onclick="$('#content').load('pages/who_are_we.html');">Who are we?</a></li>
 			<li><a href="index.php?q=events" onclick="$('#content').load('pages/events.html');">Events</a></li>
 			<li><a href="index.php?q=talk_to_me" onclick="$('#content').load('pages/talk_to_me.html');">I'd like to talk to someone</a></li>
