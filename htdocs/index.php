@@ -20,11 +20,11 @@
 		<img id="logo" src="images/fvts_logo.png" alt="FVTS Logo"/>
 		<ul id="navigation">
 			<li onclick="window.location='./'"><a href="./">Home</a></li>
-			<li onclick="$('#content').load('pages/who_are_we.html');"><a href="index.php?q=who_are_we">Who are we?</a></li>
-			<li onclick="$('#content').load('pages/events.html');"><a href="index.php?q=events">Events</a></li>
-			<li onclick="$('#content').load('pages/talk_to_me.html');"><a href="index.php?q=talk_to_me">I'd like to talk to someone</a></li>
-			<li><a href="index.php?q=forum">Discussions &amp; Feedback</a></li>
+			<li onclick="window.location='index.php?q=who_are_we';"><a href="index.php?q=who_are_we">Who are we?</a></li>
+			<li onclick="window.location='index.php?q=events';"><a href="index.php?q=events">Events</a></li>
+			<li onclick="window.location='index.php?q=talk_to_me';"><a href="index.php?q=talk_to_me">I'd like to talk to someone</a></li>
 			<!--
+			<li><a href="index.php?q=forum">Discussions &amp; Feedback</a></li>
 			<li><a href="forums/">Discussions &amp; Feedback</a></li>
 			-->
 		</ul>
@@ -42,7 +42,7 @@
 			}
 		?>
 	</div>
-	<div id="footer">Copyright &copy; 2010 Fox Valley Theological Society.  All rights reserved.&nbsp;
+	<div id="footer">Copyright &copy; 2010-2011 Fox Valley Theological Society.  All rights reserved.&nbsp;
 		Designed by <a href="http://kevingustavson.info/">Kevin Gustavson</a>.
 	</div>	
 </div>

@@ -70,8 +70,12 @@ td {
 	}
 	#header li {
 		display:inline;	
-		padding: 5px 1px 12px;
+		padding: 5px 25px 12px;
 		margin: 0;
+	}
+	#header li:hover {
+		background-color: #DE9D68;
+		padding: 5px 25px 8px;
 	}
 	#header li.selected {
 		/*background: #3d4a28;*/
@@ -81,6 +85,11 @@ td {
 		border-left: 2px solid #fff;
 		border-right: 2px solid #fff;
 	}
+		#header li.selected:hover {
+			background: #e7e7de;
+			padding: 5px 27px 12px;
+			color: #ccc;
+		}
 		#header li.selected a {
 			color: #000;
 		}
@@ -94,9 +103,15 @@ td {
 				color:#28556b;
 				text-decoration: none;
 				/*text-shadow: none;*/
-				position: relative;
-				left: 2px;
-				top: -1px;
+				/*position: relative;*/
+				/*left: 2px;*/
+				/*top: -1px;*/
+			}
+			#header li.selected a:hover {
+				color:#28556b;
+				text-decoration:none;
+				left: 0;
+				top: 0;
 			}
 
 #logo_w1,#logo_w2 {
