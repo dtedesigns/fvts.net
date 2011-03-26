@@ -23,7 +23,10 @@
 			<li><a href="index.php?q=who_are_we" onclick="$('#content').load('pages/who_are_we.html');">Who are we?</a></li>
 			<li><a href="index.php?q=events" onclick="$('#content').load('pages/events.html');">Events</a></li>
 			<li><a href="index.php?q=talk_to_me" onclick="$('#content').load('pages/talk_to_me.html');">I'd like to talk to someone</a></li>
+			<li><a href="index.php?q=forum">Discussions &amp; Feedback</a></li>
+			<!--
 			<li><a href="forums/">Discussions &amp; Feedback</a></li>
+			-->
 		</ul>
 	</div>
 	<div id="content">
