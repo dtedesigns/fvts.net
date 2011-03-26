@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteEngine on
+#RewriteRule ^(.*)\.html?$ /fvts/$1.php [NC]
+#RewriteRule ^files/([^/]+)/([^/]+).zip /download.php?section=$1&file=$2
+
+#RewriteRule old\.html$ /fvts/new.html
+RewriteRule index\.php\?q=(.*)$ /
+#RewriteRule pages\/([a-zA-Z0-9_-]+).htm[l]*$ /fvts/index.php?q=$1

@@ -19,10 +19,10 @@
 		</div>
 		<img id="logo" src="images/fvts_logo.png" alt="FVTS Logo"/>
 		<ul id="navigation">
-			<li><a href="./">Home</a></li>
-			<li><a href="index.php?q=who_are_we" onclick="$('#content').load('pages/who_are_we.html');">Who are we?</a></li>
-			<li><a href="index.php?q=events" onclick="$('#content').load('pages/events.html');">Events</a></li>
-			<li><a href="index.php?q=talk_to_me" onclick="$('#content').load('pages/talk_to_me.html');">I'd like to talk to someone</a></li>
+			<li onclick="window.location='./'"><a href="./">Home</a></li>
+			<li onclick="$('#content').load('pages/who_are_we.html');"><a href="index.php?q=who_are_we">Who are we?</a></li>
+			<li onclick="$('#content').load('pages/events.html');"><a href="index.php?q=events">Events</a></li>
+			<li onclick="$('#content').load('pages/talk_to_me.html');"><a href="index.php?q=talk_to_me">I'd like to talk to someone</a></li>
 			<li><a href="index.php?q=forum">Discussions &amp; Feedback</a></li>
 			<!--
 			<li><a href="forums/">Discussions &amp; Feedback</a></li>

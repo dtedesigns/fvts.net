@@ -234,8 +234,7 @@ td {
 	right: 55px;
 }
 
-#map { font-size: smaller; }
-.time { font-size: smaller; }
+#map, .time, .location { font-size: smaller; }
 .event {
 	margin: 2em 0.3em;
 	min-height: 66px;
