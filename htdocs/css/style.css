@@ -73,11 +73,11 @@ td {
 		padding: 5px 25px 12px;
 		margin: 0;
 	}
-	#header li:hover {
+	/*#header li:hover {
 		background-color: #DE9D68;
 		padding: 5px 25px 8px;
-	}
-	#header li.selected {
+	}*/
+	#header li:hover, #header li.selected {
 		/*background: #3d4a28;*/
 		/*background: #caf584;*/
 		background: #e7e7de;
@@ -85,12 +85,12 @@ td {
 		border-left: 2px solid #fff;
 		border-right: 2px solid #fff;
 	}
-		#header li.selected:hover {
+		/*#header li.selected:hover {
 			background: #e7e7de;
 			padding: 5px 27px 12px;
 			color: #ccc;
-		}
-		#header li.selected a {
+		}*/
+		#header li:hover a, #header li.selected a {
 			color: #000;
 		}
 		#header ul a {
@@ -99,20 +99,20 @@ td {
 			text-decoration:none;
 			text-shadow: 0 1px 1px #444;
 		}
-			#header ul a:hover {
-				color:#28556b;
-				text-decoration: none;
+			/*#header ul a:hover {*/
+				/*color:#28556b;*/
+				/*text-decoration: none;*/
 				/*text-shadow: none;*/
 				/*position: relative;*/
 				/*left: 2px;*/
 				/*top: -1px;*/
-			}
-			#header li.selected a:hover {
-				color:#28556b;
-				text-decoration:none;
-				left: 0;
-				top: 0;
-			}
+			/*}*/
+			/*#header li.selected a:hover {*/
+				/*color:#28556b;*/
+				/*text-decoration:none;*/
+				/*left: 0;*/
+				/*top: 0;*/
+			/*}*/
 
 #logo_w1,#logo_w2 {
 	font-size: 24px;
