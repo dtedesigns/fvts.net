@@ -27,13 +27,13 @@ h1 {
 	text-shadow: 0 1px 1px #bbbbbb;
 }
 
-h2 {
+h2, h3 {
 	color:#000000;
 	font-size:12px;
 	margin: 30px 0 0 0;
 	text-shadow: 0 1px 1px #bbbbbb;
 }
-	h2#subtitle {
+	h3#subtitle {
 		margin-top: 3px;
 		/*margin-left: 13px;*/
 		font-style: italic;
@@ -167,6 +167,31 @@ td {
 		margin: 3px 15px;
 		padding-left: 0;
 	}
+	#content p {
+		text-align: justify;
+	}
+
+.home_date, .sidebar_date, .event_date { display: none }
+#left .home_date { display: inline; }
+#right .sidebar_date { display: inline; }
+#full .event_date { display: inline; }
+#full .full_address { display: none; }
+.event {
+	position: relative;
+	clear: both;
+}
+.event div {
+	float: left;
+	padding-right: 12px;
+}
+.event div.event_pic { left: 0; top: 0; }
+.event div.event_description {
+	left: 151px;
+	top: 0;
+	width: 390px;
+}
+.event div.event_location { right: 0; }
+
 
 #left, #right, #full {
 	min-height: 413px;
@@ -189,6 +214,9 @@ td {
 		left: 3px;
 		z-index: 100;
 	}
+	#left h2 { font-size: 14px; }
+
+#left h4, #left .event_pic, #left .when_where { display: none; }
 
 #right {
 	float:right;
@@ -256,12 +284,14 @@ td {
 	_height: 66px;
 }
 
-#speaker {
+#speaker img {
 	/*height: 102px;*/
 	padding: 10px 10px 10px 0;
 	float: left;
 }
-	#speaker + p { margin-top: 10px; }
+#speaker > p {
+	margin-top: 5px;
+}
 
 #bio_switch {
 	display: none;
@@ -270,7 +300,7 @@ td {
 
 .when_where { width: 12em; }
 .event_description {
-	width: 395px;
+	width: 425px;
 	text-align: justify;
 }
 
