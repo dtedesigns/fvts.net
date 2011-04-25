@@ -1,0 +1,23 @@
+<div id="full">
+We strongly encourage everyone to get involved with the community. Come to the events. Ask questions. You won't regret it!
+
+h1. How Do I...
+
+*Talk to someone personally, one-on-one?*
+Send an email to "info@fvts.net":mailto:info@fvts.net
+
+*Get regular event announcements?*
+To receive event announcements send an email to "info@fvts.net":mailto:info@fvts.net
+
+*Suggest a topic for an event/live forum?*
+To reach event planners send an email to "info@fvts.net":mailto:info@fvts.net
+</div>
+<script type="text/javascript">
+<!--
+	function init() {
+		$('#navigation li').removeClass('selected');
+		$("#navigation li:contains('talk to someone')").addClass('selected');
+	}
+	window.onload=init;
+-->
+</script>
