@@ -69,3 +69,13 @@ end
 get '/talk_to_me' do
     textile :talk_to_me
 end
+
+# Possible stylesheet route
+get '/style/:name' do |n|
+	less :"style/#{n}"
+end
+
+get '/default.css' do
+	#"put template here"
+	less :"style/default"
+end
