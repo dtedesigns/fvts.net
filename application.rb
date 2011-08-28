@@ -61,7 +61,7 @@ get '/' do
             :locals => {
                 :data => [
                      YAML.load_file('views/event/2011-05-21.yml'),
-                     YAML.load_file('views/event/2011-04-09.yml')
+                     #YAML.load_file('views/event/2011-04-09.yml')
                 ]
             }
         )
