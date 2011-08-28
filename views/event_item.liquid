@@ -1,0 +1,31 @@
+<div class="event">
+  <h2 class="title">{{data.event.title}}</h2>
+  <h3 class="subtitle">{{data.event.subtitle}}</h3>
+
+  <h4 class="speaker">
+    {% if data.speaker.guest %}
+      Guest speaker:
+    {% else %}
+      Speaker:
+    {% endif %}
+    {{data.speaker.name}}
+  </h4>
+  <br/>
+
+  <div class="event_pic">
+    <img alt="{{data.event.image.title}}" alt="{{data.event.image.title}}" src="images/{{data.event.image.path}}">
+  </div>
+
+  <div class="event_description">{{data.event.description}}</div>
+
+  <div class="event_location">
+    <span class="when_where">Location and Time</span><br/>
+    <span class="event_date">
+      {{data.event.when.date}},
+      {{data.event.when.year}}<br/>
+      {{data.event.when.time}}<br/>
+      {{data.event.location.name}}
+    </span>
+  </div>
+  <p style="clear: both;" />
+</div>

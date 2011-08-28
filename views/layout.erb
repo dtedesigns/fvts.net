@@ -10,46 +10,46 @@
 
 <body>
 <div id="container">
-	<div id="header">
-		<div id="logo_w1">Fox Valley Theological Society</div>
-		<!--<div id="logo_w2">Theological Society</div>-->
-		<div id="header_text">
-			<p>A forum for sincere dialogue</p>
-		</div>
-		<img id="logo" src="images/fvts_logo.png" alt="FVTS Logo"/>
-		<ul id="navigation">
-			<li onclick="window.location='./'"><a href="./">Home</a></li>
-			<li onclick="window.location='/who_are_we';"><a href="/who_are_we">Who are we?</a></li>
-			<li onclick="window.location='/events';"><a href="/events">Events</a></li>
-			<li onclick="window.location='/talk_to_me';"><a href="/talk_to_me">I'd like to talk to someone</a></li>
-			<!--
-			<li><a href="/forum">Discussions &amp; Feedback</a></li>
-			<li><a href="forums/">Discussions &amp; Feedback</a></li>
-			-->
-		</ul>
-	</div>
-	<div id="content">
-		<%= yield %>
-		<div id="footerline"> </div>
-	</div>
-	<div id="footer">Copyright &copy; 2010-2011 Fox Valley Theological Society.  All rights reserved.<br />
-		Designed by <a href="http://kevingustavson.info/">Kevin Gustavson</a>. Powered by <a href="http://www.sinatrarb.com/" target="_blank">Sinatra</a>.
-	</div>	
+  <div id="header">
+    <div id="logo_w1">Fox Valley Theological Society</div>
+    <!--<div id="logo_w2">Theological Society</div>-->
+    <div id="header_text">
+      <p>A forum for sincere dialogue</p>
+    </div>
+    <img id="logo" src="images/fvts_logo.png" alt="FVTS Logo"/>
+    <ul id="navigation">
+      <li onclick="window.location='./'"><a href="./">Home</a></li>
+      <li onclick="window.location='/who_are_we';"><a href="/who_are_we">Who are we?</a></li>
+      <li onclick="window.location='/events';"><a href="/events">Events</a></li>
+      <li onclick="window.location='/talk_to_me';"><a href="/talk_to_me">I'd like to talk to someone</a></li>
+      <!--
+      <li><a href="/forum">Discussions &amp; Feedback</a></li>
+      <li><a href="forums/">Discussions &amp; Feedback</a></li>
+      -->
+    </ul>
+  </div>
+  <div id="content">
+    <%= yield %>
+    <div id="footerline"> </div>
+  </div>
+  <div id="footer">Copyright &copy; 2010-2011 Fox Valley Theological Society.  All rights reserved.<br />
+    Designed by <a href="http://kevingustavson.info/">Kevin Gustavson</a>. Powered by <a href="http://www.sinatrarb.com/" target="_blank">Sinatra</a>.
+  </div>  
 </div>
 <script type='text/javascript' src='js/jquery.js'></script>
 <script type="text/javascript">
 <!--
-	$('#bio_switch').show();
-	$('#bio').hide();
+  $('#bio_switch').show();
+  $('#bio').hide();
     $('#bio_switch').click(function () {
-    	if(this.text == 'More...') {
-			$('#bio_switch').text('Less...');
-			$('#bio').show();
-    	} else {
-			$('#bio_switch').text('More...');
-			$('#bio').hide();
-    	}
-    	return false;
+      if(this.text == 'More...') {
+        $('#bio_switch').text('Less...');
+        $('#bio').show();
+      } else {
+        $('#bio_switch').text('More...');
+        $('#bio').hide();
+      }
+      return false;
     });
 -->
 </script>

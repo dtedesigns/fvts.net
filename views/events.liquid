@@ -2,20 +2,17 @@
   <div id="upcoming_events">
     <h1>Upcoming Events</h1>
 
-    <% upcoming.each do |item| %>
-      <%= item %>
-    <% end %>
+    {% for item in upcoming %}
+      {{item}}
+    {% endfor %}
  </div>
 
   <div id="previous_events">
     <h1>Previous Events</h1>
 
-    <% previous.each do |item| %>
-      <%= item %>
-    <% end %>
-
-    <div class="event"><%= textile :'description/is_god_dead' %></div>
-    <div class="event"><%= textile :'description/how_did_humans_emerge_from_the_mud' %></div>
+    {% for item in previous %}
+      {{item}}
+    {% endfor %}
 
     <h2>Is Christianity Intellectual Suicide?</h2>
     <h4>Speaker: Nicholas Piotrowski</h4>

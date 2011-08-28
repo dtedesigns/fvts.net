@@ -1,0 +1,41 @@
+speaker:
+  name: Justin Taylor
+  guest: true
+  image:
+    path: justintaylor.jpg
+    title: Justin Taylor
+  bio: >
+    works as an editor at Crossway Publishers in Wheaton,
+    Illinois.  He also writes about the relationship
+    of culture and theology on his blog, <em><a
+    href="http://thegospelcoalition.org/blogs/justintaylor/">Between
+    Two Worlds</a></em>
+
+event:
+  title: Says Who?
+  subtitle: Can we find truth in a pluralistic age?
+  description: >
+    Twenty-first century American culture is comprised of an innumerable
+    collection of subcultures, all set side by side right next to each
+    other. In a given day we all rub shoulders with any number of these
+    subcultures—each one with a different set of values, ethics,
+    goals, and competing claims on what is true. But who says what is
+    true? Is there any way to tell who has the truth? Does anyone have
+    the truth? Does truth exist? Is truth accessible to us? Join us as
+    we consider “What is truth” in a pluralistic age. All are welcome!
+  image:
+    path: find_truth.png
+    title: Find Truth?
+  when:
+    dow: Saturday
+    date: May 21
+    year: 2011
+    time: 10:00 - Noon
+  location:
+    name: Batavia Public Library
+    street: 10 S. Batavia Avenue
+    city: Batavia
+    state: Illinois
+    st: IL
+    zipcode: 60510
+    map_url: http://maps.google.com/maps/place?cid=10709501666740266370&amp;q=batavia+public+library&amp;hl=en&amp;cd=1&amp;cad=src:pplink&amp;ei=MbK_S4DWD4-WMami1ZEM

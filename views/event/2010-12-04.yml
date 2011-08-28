@@ -1,0 +1,24 @@
+speaker:
+  name: Dr. Gerry Rau
+  guest: true
+
+event:
+  title: How Did Humans Emerge From The Mud?
+  description: >
+    Did we evolve, or were we created? Whether we are just another animal or created in the image of God has important personal and societal implications. Do we have to choose between science and religion, or is there a way to reconcile the two?  This issue tends to spark heated debate, but our conversation will try to generate light rather than heat.
+  image:
+    path: emerge_from_the_mud.jpg
+    title: Emerge from the mud?
+  when:
+    dow: Saturday
+    date: December 4
+    year: 2010
+    time: 10:00 - Noon
+  location:
+    name: Batavia Public Library
+    street: 10 S. Batavia Avenue
+    city: Batavia
+    state: Illinois
+    st: IL
+    zipcode: 60510
+    map_url: http://maps.google.com/maps/place?cid=10709501666740266370&amp;q=batavia+public+library&amp;hl=en&amp;cd=1&amp;cad=src:pplink&amp;ei=MbK_S4DWD4-WMami1ZEM

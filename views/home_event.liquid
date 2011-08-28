@@ -1,0 +1,46 @@
+<h2>{{event.title}}</h2>
+<h3 id='subtitle'>{{event.subtitle}}</h3>
+<h4 class="speaker">
+  {% if speaker['guest'] %}
+  Guest speaker:
+  {% else %}
+  Speaker:
+  {% endif %}
+  {{speaker.name}}
+</h4>
+
+<div class="event_pic">
+  <img src="images/{{event.image.path}}" class="event_pic" title="{{event.image.title}}" alt="{{event.image.title}}">
+</div>
+
+<div class="event_description">
+  <p>{{event.description}}</p>
+</div>
+
+<div class="event_location">
+  <span class="when_where">Location and Time</span>
+  <br/>
+  <span class="home_date">
+    {{event.when.dow}},
+    {{event.when.date}},
+    {{event.when.time}}
+  </span><br/>
+    {{event.location.name}}<br/>
+  <span class="full_address">
+    {{event.location.street}}<br/>
+    {{event.location.city}},
+    {{event.location.state}},
+    {{event.location.zipcode}}
+  </span>
+  <span>
+    <a href="{{event.location.map_url}}" alt="Map">Map</a>
+  </span>
+</div>
+<p style="clear: both;" />
+
+<div id="speaker">
+  <h3>Our Speaker</h3>
+  <img alt="{{speaker.image.title}}" title="{{speaker.image.title}}" src="images/{{speaker.image.path}}"/>
+  <span class="speaker">{{speaker.name}}</span>
+  {{speaker.bio}}
+</div>

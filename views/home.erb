@@ -1,15 +1,18 @@
 <div id="left">
-	<%= erb :'event/2011-05-21' %>
+    <%= liquid :home_event, :locals => {
+        :speaker => data['speaker'],
+        :event => data['event']
+    } %>
 </div>
 
-<%= erb :sidebar %>
+<%= sidebar %>
 
 <script src="http://www.google-analytics.com/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
 <!--
-	function init() {
-		$('#navigation li').removeClass('selected');
-		$("#navigation li:contains('Home')").addClass('selected');
-	}
-	window.onload=init;
+    function init() {
+        $('#navigation li').removeClass('selected');
+        $("#navigation li:contains('Home')").addClass('selected');
+    }
+    window.onload=init;
 -->
 </script>

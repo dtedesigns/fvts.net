@@ -1,0 +1,13 @@
+<tr>
+  <td class="event">
+    <a href="events">
+      <img class="event_pic" src="images/<%= event['image']['path'] %>" title="<%= event['image']['title'] %>">
+    </a>
+
+    <a href="/events"><%= event['title'] %></a>
+    <br>
+    <span class="time"><%= event['when']['dow'] %>, <%= event['when']['date'] %><br><%= event['when']['time'] %></span>
+    <br>
+    <br>
+  </td>
+</tr>
