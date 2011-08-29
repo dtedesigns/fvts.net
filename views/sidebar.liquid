@@ -4,9 +4,9 @@
   <table>
     <tbody>
 
-      <% data.each do |item| %>
-        <%= erb :sidebar_item, :locals => { :event => item['event'] } %>
-      <% end %>
+      {% for item in items %}
+        {{item}}
+      {% endfor %}
 
     <tr>
       <td>To receive event announcements send an email to <a href="mailto:info@fvts.net?subject=Send%20me%20email%20announcements">info@fvts.net</a>.</td>

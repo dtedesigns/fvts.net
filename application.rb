@@ -60,9 +60,9 @@ get '/' do
             :event   => data['event']
     })
 
-    sidebar = erb( :sidebar, :layout => false, :locals => {
-        :data => [
-             data,
+    sidebar = liquid( :sidebar, :layout => false, :locals => {
+        :items => [
+             liquid(:sidebar_item, :layout => false, :locals => { :event => data['event'] })
              #YAML.load_file('event/2011-04-09.yml')
         ]
     })
