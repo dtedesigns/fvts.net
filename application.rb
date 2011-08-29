@@ -10,7 +10,7 @@ require 'partial_helper'
 set :layout_engine => :erb
 #set :erb, :layout_engine => :erb
 set :textile, :layout_engine => :erb
-set :liquid, :layout_engine => false
+set :liquid, :layout_engine => :erb
 
 # use Rack::Auth::Basic "Restricted Area" do |username, password|
 #     [username, password] == ['admin','admin']
@@ -53,18 +53,23 @@ end
 
 # Fox Valley Theological Society
 get '/' do
-    erb :home, :locals => {
-        :data => YAML.load_file('views/event/2011-05-21.yml'),
-        :sidebar => erb(
-            :sidebar,
-            :layout => false,
-            :locals => {
-                :data => [
-                     YAML.load_file('views/event/2011-05-21.yml'),
-                     #YAML.load_file('views/event/2011-04-09.yml')
-                ]
-            }
-        )
+    data = YAML.load_file('views/event/2011-05-21.yml')
+
+    home_event = liquid(:home_event, :layout => false, :locals => {
+            :speaker => data['speaker'],
+            :event   => data['event']
+    })
+
+    sidebar = erb( :sidebar, :layout => false, :locals => {
+        :data => [
+             data,
+             #YAML.load_file('views/event/2011-04-09.yml')
+        ]
+    })
+
+    liquid :home, :locals => {
+        :home_event => home_event,
+        :sidebar => sidebar,
     }
 end
 
