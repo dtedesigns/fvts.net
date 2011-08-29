@@ -53,7 +53,7 @@ end
 
 # Fox Valley Theological Society
 get '/' do
-    data = YAML.load_file('views/event/2011-05-21.yml')
+    data = YAML.load_file('event/2011-05-21.yml')
 
     home_event = liquid(:home_event, :layout => false, :locals => {
             :speaker => data['speaker'],
@@ -63,7 +63,7 @@ get '/' do
     sidebar = erb( :sidebar, :layout => false, :locals => {
         :data => [
              data,
-             #YAML.load_file('views/event/2011-04-09.yml')
+             #YAML.load_file('event/2011-04-09.yml')
         ]
     })
 
@@ -78,11 +78,11 @@ get '/who_are_we' do
 end
 
 get '/events' do
-    upcoming = [ liquid :event_item, :layout => false, :locals => { :data => YAML.load_file('views/event/2011-05-21.yml') } ]
+    upcoming = [ liquid :event_item, :layout => false, :locals => { :data => YAML.load_file('event/2011-05-21.yml') } ]
     previous = [
-        liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('views/event/2011-04-09.yml') } ),
-        liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('views/event/2011-02-26.yml') } ),
-        liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('views/event/2010-12-04.yml') } ),
+        liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('event/2011-04-09.yml') } ),
+        liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('event/2011-02-26.yml') } ),
+        liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('event/2010-12-04.yml') } ),
     ]
 
     liquid :events, :layout_engine => :erb, :locals => {
