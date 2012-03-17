@@ -28,32 +28,10 @@ def protected!
     end
 end
 
-# Examples
-post '/' do
-    # create something
-end
-
-
-put '/' do
-    # replace something
-end
-
-#patch '/' do
-    # modify something
-#end
-
-delete '/' do
-    # annihilate something
-end
-
-options '/' do
-    # appease something
-end
-
 
 # Fox Valley Theological Society
 get '/' do
-    data = YAML.load_file('event/2011-05-21.yml')
+    data = YAML.load_file('event/2012-04-07.yml')
 
     home_event = liquid(:home_event, :layout => false, :locals => {
             :speaker => data['speaker'],
@@ -78,8 +56,12 @@ get '/who_are_we' do
 end
 
 get '/events' do
-    upcoming = [ liquid :event_item, :layout => false, :locals => { :data => YAML.load_file('event/2011-05-21.yml') } ]
+    upcoming = [
+		liquid :event_item, :layout => false, :locals => { :data => YAML.load_file('event/2012-04-07.yml') }
+	]
+
     previous = [
+		liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('event/2011-05-21.yml') } ),
         liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('event/2011-04-09.yml') } ),
         liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('event/2011-02-26.yml') } ),
         liquid(:event_item, :layout => false, :locals => { :data => YAML.load_file('event/2010-12-04.yml') } ),
@@ -101,7 +83,6 @@ get '/style/:name' do |n|
 end
 
 get '/default.css' do
-    #"put template here"
     less :"style/default"
 end
 

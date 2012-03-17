@@ -1,0 +1,50 @@
+event:
+  title: Do Some People Really Believe a Dead Man Came Back to Life?
+  subtitle: "Join us for an Easter discussion: How have different traditions understood the story of the resurrection of Jesus of Nazareth?"
+  description: >
+    Christians have been celebrating Good Friday and Easter for nearly
+    2,000 years.  But why?  That Jesus of Nazareth was executed is a
+    given, but what does the Easter holiday celebrate?  Was Jesus really
+    raised from the dead?  Was that even the message first Christians
+    sought to spread?  Or did they know, even then, that this was a
+    metaphorical tale?  How has the story been understood since those
+    first days of the Christian movement?  Join us as we consider how
+    different traditions have historically understood the story of the
+    resurrection of Jesus of Nazareth. All are welcome!
+  image:
+    path: empty-tomb.png
+    title: Resurrection?
+  when:
+    dow: Saturday
+    date: April 7
+    year: 2012
+    time: 10:00 - 11:30am
+  location:
+    name: Indianapolis Central Library
+    street: 40 E. St. Clair Street
+    city: Indianapolis
+    state: Indiana
+    st: IN
+    zipcode: 46204
+    map_url: http://maps.google.com/maps?q=40+E.+St.+Clair+St.,+Indianapolis,+IN+46204]
+    disclaimer: This program is not sponsored by the Indianapolis Public Library.
+
+speaker:
+  name: Nicholas Piotrowski
+  guest: false
+  image:
+    path: Nicholas.jpg
+    title: Nicholas Piotrowski
+  bio: >
+    Nicholas is a resident of Batavia and a PhD candidate at Wheaton College. His dissertation
+    addresses first century socio-rhetorical uses of sacred texts for the sake of community formation.
+    This upcoming talk and discussion will revolve around only a slightly different topic. At the end
+    of the 19th century Friedrich Nietzsche also used religious texts to give shape to the burgeoning
+    postmodern world when he proclaimed that “God is dead.” Western thinkers in every discipline
+    from political theory to the fine arts have taken up this “death of God” motif throughout the
+    20th century. Nicholas has observed, however, in his years of teaching philosophy to high
+    school seniors and college freshmen, that what Nietzsche specifically meant has been lost in
+    the intervening years. Perhaps it is time to reevaluate Nietzsche’s famous pronouncement in
+    the light of more than a century’s worth of retrospect. Join us on February 26th at 10am at the
+    Batavia Public Library for a lecture and open discussion and Q&A as we consider what it means
+    and whether it is true that “God is dead.”
