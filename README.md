@@ -1,4 +1,4 @@
 fvts.net
 ========
 
-Repository for Fox Valley Theological Society Website
+Repository for [Fox Valley Theological Society](http://fvts.net) website.
